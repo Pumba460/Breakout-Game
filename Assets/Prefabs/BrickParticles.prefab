@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3469700331371130953}
   - component: {fileID: 3565570367125585406}
   - component: {fileID: 1503441381672258834}
+  - component: {fileID: -4586669374481417585}
   m_Layer: 0
   m_Name: BrickParticles
   m_TagString: Untagged
@@ -4836,3 +4837,15 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &-4586669374481417585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628871255448802663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2acc731afc33c499a99830a2b5cca7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimedDestroy
